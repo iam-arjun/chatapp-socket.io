@@ -1,0 +1,70 @@
+*{
+    padding:0;margin:0;box-sizing: border-box;
+}
+
+
+.main_div{
+  width:1000px;
+  height:80vh;
+    /* border:2px solid darkmagenta; */
+    border-radius: 10px;
+    /* background-color: aliceblue; */
+    margin-top:50px;
+
+
+}
+.message_part{
+    background: aquamarine;
+
+    width: 100%;
+    height: 84%;
+   
+}
+.header_part{
+    width:100%;
+    height: 60px;
+    background-color: antiquewhite;
+    font-size: 34px;
+    color:chocolate;
+    padding-left:20px;
+    display: flex;
+    justify-content: space-between;
+    padding:4px;
+}
+
+.btn_part button{
+    width:100%;
+
+}
+.send_msg{
+    width: 100%;
+}
+
+.message_part{
+   
+  
+    padding-left:10px;
+    padding-right: 10px;
+   
+}
+.incoming_mg,.outgoing_mg{
+    margin-top:10px;
+    padding:5px;
+    width:fit-content;
+    height: auto;
+   
+    border:2px solid white;
+}
+.incoming_mg{
+    background-color: lightgreen;
+    float:left;
+    clear: both;
+  
+}
+.outgoing_mg{
+    background-color: lightpink;
+    float:right;
+    clear: both;
+  
+}
+
